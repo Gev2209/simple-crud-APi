@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th, td:hover {
+    background-color: rgba(73, 73, 73, 0.425);
+    color: white;
+    transition: all ease 0.3s;
+}
+th {
+    background-color: #000000;
+}
